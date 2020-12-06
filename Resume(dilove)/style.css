@@ -1,0 +1,277 @@
+body{
+    margin: 0;
+}
+.About{
+    background-image: url("img/BG.jpg");
+    height: 935px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#myPh{
+    height: 930px;
+    border: black solid 2px;
+    float: left;
+}
+.work{
+    display: flex;
+}
+.text{
+    text-align: center;
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: 100px;
+    border-bottom: solid 1px whitesmoke;
+}
+.images{
+}
+.imgTop {
+    height: 170px;
+    margin-left: 10px;
+}
+.navigation {
+    text-align: center;
+    /*border-bottom: solid 3px whitesmoke;*/
+}
+.navText {
+    font-size: 40px;
+}
+.education {
+    background-size: cover;
+    background-image: url("img/eduBg.jpg");
+    background-repeat: no-repeat;
+    height: 667px;
+}
+.school{
+    float: left;
+    width: 50%;
+}
+.eduTXT {
+    text-align: center;
+    font-size: 30px;
+}
+.eduIMG {
+    width: 100%;
+    height: 500px;
+}
+.university {
+    float: right;
+    width: 50%;
+}
+.development {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    background-image: url("img/developBg.jpg");
+}
+.examples {
+    display: flex;
+    justify-content: center;
+}
+.template{
+    height: 270px
+}
+#exampleH {
+    font-size: 50px;
+    border: solid 3px;
+    background: linear-gradient(45deg, bisque, transparent);
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.skill {
+    display: flex;
+    justify-content: center;
+    color: cornsilk;
+    font-size: 30px;
+    background: black;
+}
+.contact {
+    height: 300px;
+    background: antiquewhite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+#contTXT {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+}
+
+/* ===================================media==================================*/
+
+@media screen and (max-width: 1200px){
+    .About .education .development .contact {
+        width: 1140px;
+    }
+    .template {
+        height: 240px;
+    }
+    #myPh {
+        height: 530px;
+    }
+    .text   {
+        font-size:15px;
+    }
+    .skill{
+        font-size:15px;
+    }
+    .eduTXT {
+        font-size:15px;
+    }
+    .imgTop{
+        height: 100px;
+    }
+    .navText {
+        font-size: 20px;
+    }
+    .About {
+        height: 450px;
+    }
+}
+@media screen and (max-width: 1199px){
+    .About .education .development .contact {
+        width: 960px;
+    }
+    .template {
+        height: 210px;
+    }
+    #myPh {
+        height: 400px;
+    }
+    .text {
+        font-size:15px;
+    }
+    .skill{
+        font-size:15px;
+    }
+    .eduTXT {
+        font-size:15px;
+    }
+    .imgTop{
+        height: 90px;
+    }
+    .navText {
+        font-size: 20px;
+    }
+    .About {
+        height: 450px;
+    }
+}
+@media screen and (max-width: 991px){
+    .About .education .development .contact {
+        width: 248px;
+    }
+    .template {
+        height: 120px;
+    }
+    #myPh {
+        height: 200px;
+    }
+    .text {
+        font-size:15px;
+    }
+    .skill{
+        font-size:15px;
+    }
+    .eduTXT {
+        font-size:15px;
+    }
+    .imgTop{
+        height: 90px;
+    }
+    .navText {
+        font-size: 20px;
+    }
+    .About {
+        height: 450px;
+    }
+}
+@media screen and (max-width: 767px){
+    .About .education .development .contact {
+        width: 540px;
+    }
+    .template {
+        height: 150px;
+    }
+    #myPh {
+        height: 100px;
+    }
+    .text {
+        font-size:15px;
+    }
+    .skill {
+        font-size:15px;
+    }
+    .eduTXT {
+        font-size:15px;
+    }
+    .imgTop{
+        height: 70px;
+    }
+    .navText {
+        font-size: 20px;
+    }
+    .About {
+        height: 450px;
+    }
+}
+@media screen and (max-width: 575px){
+    .About .education .development .contact {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .template {
+        height: 50px;
+    }
+    #myPh {
+        height: 50px;
+    }
+    .text {
+        font-size:15px;
+    }
+    .skill{
+        font-size:15px;
+    }
+    .eduTXT {
+        font-size:15px;
+    }
+    .imgTop{
+        height: 70px;
+    }
+    .navText {
+        font-size: 20px;
+    }
+    .About {
+        height: 450px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
